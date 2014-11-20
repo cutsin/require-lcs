@@ -17,8 +17,9 @@ var require = {
 ```
 app/main.coffee.md:
 ```coffeescript
-require [
-	'lcs!common/baseModel'
-], ->
-  console.log 'yeah~'
+# a coffee package
+  require [
+	  'lcs!common/baseModel'
+  ], ->
+    console.log 'yeah~'
 ```
