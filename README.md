@@ -16,7 +16,7 @@ var require = {
 <script data-main="lcs!app/main" src="//static.abc.com/j/pub/require/2.1.14.js"></script>
 ```
 app/main.coffee.md:
-```javascript
+```coffeescript
 require [
 	'lcs!common/baseModel'
 ], ->
